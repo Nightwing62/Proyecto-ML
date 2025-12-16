@@ -120,3 +120,5 @@ print("Guardando dataset final...")
 df.to_parquet(ART / "train_merged.parquet")
 
 print("Listo. Archivo creado en /artifacts/train_merged.parquet")
+
+print("FASE 2: Terminada")
