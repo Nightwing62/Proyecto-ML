@@ -38,4 +38,4 @@ print(f"AUC TEST: {auc:.4f}")
 print("\nMatriz de confusión:\n", cm)
 print("\nReporte:\n", report)
 
-print("✔ FASE 4 completada")
+print("FASE 4: completada")
