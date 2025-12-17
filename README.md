@@ -169,7 +169,7 @@ POST /evaluate_risk
    python 04_evaluation/evaluate_model.py
 
 4. Levantar API:
-   uvicorn 05_deployment.app:app --reload
+   python -m uvicorn 05_deployment.api:app --reload
 
 5. Probar API en:
    http://127.0.0.1:8000/docs
@@ -181,3 +181,4 @@ El proyecto implementa un flujo completo de Machine Learning siguiendo
 CRISP-DM, desde la exploración de datos hasta el despliegue del modelo.
 El resultado es una solución funcional, reproducible y alineada con
 un caso de negocio real en el sector financiero.
+
